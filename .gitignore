@@ -1,1 +1,14 @@
+# Build artifacts
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# Editor / OS
+.vscode/ipch/
+.DS_Store
+
+# Archives — never commit scaffold zips
 *.zip
